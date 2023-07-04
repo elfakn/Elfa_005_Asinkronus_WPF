@@ -1,0 +1,15 @@
+﻿<Window x:Class="Wpf_Framework.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Framework"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Elfa Khoirun Nissa&#xA;Embun Aulia Dwi W" HorizontalAlignment="Left" Margin="145,81,0,0" VerticalAlignment="Top" FontSize="48" Height="161" Width="469"/>
+        <Button Content="Tekan Saya" HorizontalAlignment="Left" Margin="203,287,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBox  x:Name="txtNama" Width="162" Text="Masukan nama" HorizontalAlignment="Left" Margin="165,222,0,173"/>
+
+    </Grid>
+</Window>
